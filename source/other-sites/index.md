@@ -17,7 +17,6 @@ date: 2023-08-24 00:41:55
  - https://snesite.xyz (部分被墙)
  - https://snesite.gov.net.tw (被墙)
  - https://snesite.gov.cooking (部分被墙)
- - https://lagqwq.github.io (部分被墙)
  - https://snesite.vercel.app (被墙)
  - https://中华人民共和国政府.top
  - https://gov-hk.top
