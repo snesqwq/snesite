@@ -1,0 +1,5 @@
+options:
+  imagePrefix: image-
+  lineNumbers: true
+editor:
+  lineNumbers: true
