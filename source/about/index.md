@@ -15,7 +15,7 @@ NodeJS、Python、CSS、HTML、Magisk、易语言和Android刷机。
 
  - 📺 [Bilibili@LAGSNES](https://space.bilibili.com/1333372502)
  - 🎗️ [酷安@LAGSNES](http://www.coolapk.com/u/21884375)
- - 🐱 [Github@LAGQWQ](https://github.com/lagqwq)
+ - 🐱 [Github@LAGQWQ](https://github.com/snesqwq)
  - 📬 lagsnes@outlook.com [向我发送邮件](mailto:lagsnes@outlook.com)
  - ✈️ [Telegram@LAGSNES](https://t.me/lagsnes)
  - 🐧 ~~QQ~~ 暂不透露
