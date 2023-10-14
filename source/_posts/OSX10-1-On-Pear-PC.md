@@ -5,8 +5,8 @@ categories:
 date: '2023-10-14T10:49:00+08:00'
 tags:
 - PearPC
-title: PearPC安装小记
-updated: 2023-10-14T21:10:50.926+8:0
+title: PearPC 安装小记
+updated: 2023-10-14T21:13:34.338+8:0
 ---
 [PearPC](https://pearpc.sourceforge.net/)是一个PowerPC Mac模拟器。本文将会介绍如何使用PearPC安装MacOS X 10.1。
 
@@ -187,12 +187,12 @@ nvram_file = "nvram"
 
 1. `ppc_start_resolution = "1024x768x32"` 控制屏幕分辨率和色深，其中 **1024x768** 是屏幕分辨率，而 **x32** 是色深。请确保分辨率合理，不要高于实际显示器分辨率。色深可选择 **x15** 或 **x32**，其中 **x32** 提供更丰富的颜色表现。
 2. `ppc_start_full_screen = 0` 表示是否全屏。**0** 表示不全屏，**1** 表示全屏。
-3. `redraw_interval_msec = 40` 是重绘间隔，应设置在 **10 到 500 之间**。更的重低绘间隔可以提供更快的速度，但也需要更高的主机性能。设置在 **10** 可以获得最好的性能。
-4. `key_*` 项用于指定键值，例如 `key_compose_dialog` 打开组合键对话框， `key_change_cd_0` 用于更改CD， `key_toggle_mouse_grab` 用于切换鼠标捕获， `key_toggle_full_screen` 用于切换全屏。
-5. `prom_bootmethod = "auto"` 用于更改引导方法。确保将 "auto" 更改为 "select"，否则可能导致启动问题。
-6. `prom_env_*` 项是启动环境设置。要在 "啰嗦模式" 下获得更详细的日志，可以将 `prom_env_machargs = ""` 选项更改为 `prom_env_machargs = "-v"`。最好不要更改 `prom_env_bootargs = ""` 的值。如果要安装 Mac OS X 10.3 及更低版本的系统，需取消注释 `prom_env_bootargs = ""` 值前的 "#" 符号。
+3. `redraw_interval_msec = 40` 是重绘间隔，应设置在 **10 到 500 之间**。更低的重绘间隔可以提供更快的速度，但也需要更高的主机性能。设置在 **10** 可以获得最好的性能。
+4. `key_*` 项用于指定键值， `key_compose_dialog` 打开组合键对话框， `key_change_cd_0` 用于更改CD， `key_toggle_mouse_grab` 用于切换鼠标捕获， `key_toggle_full_screen` 用于切换全屏。
+5. `prom_bootmethod = "auto"` 用于更改引导方法。确保将 `auto` 更改为 `select`，否则可能导致启动问题。
+6. `prom_env_*` 项是启动环境设置。要在 "啰嗦模式" 下获得更详细的日志，可以将 `prom_env_machargs = ""` 选项更改为 `prom_env_machargs = "-v"`。最好不要更改 `prom_env_bootargs = ""` 的值。如果要安装 Mac OS X 10.3 及更低版本的系统，需取消注释 `prom_env_bootargs = ""` 值前的 `#` 符号。
 7. `prom_driver_graphic = "video.x"` 是GPU驱动。如果要在PearPC上运行BeOS、Linux等系统，可以在前面添加 "#" 注释符。
-8. `cpu_pvr = *` 项用于指定CPU型号。通常不建议更改此选项。例如，`cpu_pvr = 0x00088302` 表示G3，`cpu_pvr = 0x000c0201` 表示G4。`memory_size=0x20000000`项是内存大小(十六进制 使用MiB)，通常128MiB即可
+8. `cpu_pvr = *` 项用于指定CPU型号。通常不建议更改此选项。 `cpu_pvr = 0x00088302` 表示G3，`cpu_pvr = 0x000c0201` 表示G4。`memory_size=0x20000000`项是内存大小(十六进制 使用MiB)，通常128MiB即可
 9. `pci_ide0_*` 项是PCI IDE选项。请将 `pci_ide0_master_image = "image.img"` 更改为虚拟硬盘的完整地址，将 `pci_ide0_slave_image = "macosx.iso"` 更改为虚拟光盘的完整地址。
 
 编辑完成后，在终端中输入 `ppc.exe ppc.cfg` 来启动PearPC。在弹出窗口中输入 `1` 并按回车键即可进入系统。
