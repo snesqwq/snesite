@@ -1,7 +1,7 @@
 ---
 date: '2023-08-24T00:41:55+08:00'
 title: 其他站点
-updated: 2023-10-16T20:46:8.869+8:0
+updated: 2023-10-22T14:5:22.763+8:0
 ---
 <div class="markdown-body">
 
@@ -25,6 +25,7 @@ updated: 2023-10-16T20:46:8.869+8:0
 - https://gov-hk.top
 - https://gov-cn.xyz
 - https://森.玩原神玩的.xyz
+- https://是没妈的傻逼.top
 
 ## 其他站点
 
@@ -50,6 +51,7 @@ SNESITE 的所有域名:
 - https://gov-hk.top
 - https://gov-cn.xyz
 - https://森.玩原神玩的.xyz
+- https://是没妈的傻逼.top
 
 ---
 
